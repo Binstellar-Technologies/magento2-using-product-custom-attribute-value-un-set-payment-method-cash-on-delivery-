@@ -2,9 +2,18 @@
 
 > Magento2 an open-source e-commerce platform written in PHP.
 
+&nbsp;
+&nbsp;
+
 > In this extension we are going to see how can we disable payment method like Cash On Delivery(COD) based on custom product attribute value 
 
+&nbsp;
+&nbsp;
+
 > In this extension, we have created a custom attribute named Purchase Type & set the condition that if purchase type value is purchase then disable the payment method named Cash On Delivery
+
+&nbsp;
+&nbsp;
 
 
 ## Installation Steps
@@ -22,5 +31,28 @@ php bin/magento setup:static-content:deploy -f
 
 php bin/magento cache:flush
 
+&nbsp;
+&nbsp;
 
+<h5> Before adding product in cart </h5>
+<kbd>
+
+![image1](https://user-images.githubusercontent.com/123800304/218933031-cab5e382-0f41-457c-9d7b-b982cb359d38.png)
+
+
+</kbd>
+
+&nbsp;
+&nbsp;
+
+<h5> After adding product in cart </h5>
+<kbd>
+
+![image2](https://user-images.githubusercontent.com/123800304/218933050-8d23f703-367b-4a07-968a-385e4049fcc4.png)
+
+
+</kbd>
+
+&nbsp;
+&nbsp;
 ## Note : We have tested this option in Magento ver. 2.4.5-p1
