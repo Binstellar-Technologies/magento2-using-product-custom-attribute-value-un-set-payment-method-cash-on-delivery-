@@ -55,4 +55,6 @@ php bin/magento cache:flush
 
 &nbsp;
 &nbsp;
+
+<a href="https://docs.google.com/document/d/1m4gsgxFOxCU2Rgd55Cqo6OR7M897WYGegM8kxaGzAJw/edit?usp=sharing">Magento2 Using product custom attribute value un-set payment method(e.g. Cash On Delivery)</a>
 ## Note : We have tested this option in Magento ver. 2.4.5-p1
