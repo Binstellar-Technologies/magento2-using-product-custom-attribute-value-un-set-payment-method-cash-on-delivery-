@@ -29,6 +29,9 @@ class Available
     {   
 
         $finalQuote = (!$this->cartModel->getQuote()) ? $this->cartModel->getQuote() : $quote;
+
+
+
         $cartData = $finalQuote->getAllVisibleItems();
 
         if ($cartData > 0) {
